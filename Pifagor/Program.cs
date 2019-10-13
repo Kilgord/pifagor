@@ -12,7 +12,7 @@ namespace Pifagor
         {
             int a,b,c;
             int stepen = 2;
-            
+            Console.WriteLine("Поиск займет пару секунд, ждите!");
 
 
 
@@ -25,10 +25,10 @@ namespace Pifagor
                     {
                         if ((Math.Pow(a, stepen)) +(Math.Pow(b, stepen)) == Math.Pow(c, stepen))
                         {
-                            Console.WriteLine("Ищем по степени");
+                           
                             if ((a < b) & (b < c) & (a < c))
                             {
-                                Console.WriteLine("Ищем по равенству");
+                               
                                 if (a + b + c == 1000)
                                 {
                                     int composition = a * b * c;
